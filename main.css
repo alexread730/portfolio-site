@@ -1,0 +1,18 @@
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
+
+.splash {
+  width: 100vw;
+  opacity: .8;
+}
