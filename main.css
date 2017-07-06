@@ -25,3 +25,11 @@
 .jumbotron-header{
   padding-top: 3em;
 }
+
+.starwars-img {
+  width: 40%;
+}
+
+.portfolio {
+  margin-top: 6em;
+}
