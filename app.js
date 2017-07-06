@@ -1,4 +1,8 @@
 $(document).ready(function() {
 
-  $('#carousel').carousel();
+  $('.portfolio-button').click(() => {
+    $('.jumbotron').fadeOut(2000);
+  })
+
+
 })

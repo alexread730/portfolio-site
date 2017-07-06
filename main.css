@@ -12,7 +12,16 @@
     z-index:3;
 }
 
-.splash {
-  width: 100vw;
-  opacity: .8;
+.jumbotron {
+  background-image: url(./img/denver-skyline.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  height: 90vh;
+  background-blend-mode: darken;
+}
+
+
+.jumbotron-header{
+  padding-top: 3em;
 }
