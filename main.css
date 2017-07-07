@@ -26,9 +26,6 @@
   padding-top: 3em;
 }
 
-.starwars-img {
-  width: 40%;
-}
 
 .portfolio {
   margin-top: 6em;
@@ -37,4 +34,6 @@
 
 article {
   margin-top: 10%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid black;
 }
