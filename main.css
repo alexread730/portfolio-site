@@ -12,6 +12,18 @@
     z-index:3;
 }
 
+.navbar {
+  background-color: #74983D;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
 .jumbotron {
   background-image: url(./img/denver-skyline.jpg);
   color: white;
@@ -32,6 +44,10 @@
   margin-bottom: 6em;
 }
 
+.portfolio-button {
+  background-color: #74983D;
+}
+
 article {
   margin-top: 10%;
   padding-bottom: 1em;
@@ -41,4 +57,8 @@ article {
 .headshot {
   height: 40vh;
   margin-top: 5em;
+}
+
+.info-paragraph {
+  margin-bottom: 10%;
 }
