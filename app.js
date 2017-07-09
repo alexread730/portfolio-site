@@ -2,11 +2,11 @@ $(document).ready(function() {
   $('.portfolio').hide();
   $('.jumbotron').hide();
   $('.jumbotron').fadeIn(1500);
-  $('.info').hide();
-  $('.info').fadeIn(1500);
+  $('.about').hide();
+  $('.about').fadeIn(1500);
   $('.portfolio-button').click(() => {
-    $('.jumbotron').fadeOut(2000, () => {
-      $('.portfolio').fadeIn(2000);
+    $('.jumbotron').fadeOut(1500, () => {
+      $('.portfolio').fadeIn(1500);
     });
   });
 
