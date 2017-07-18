@@ -38,9 +38,12 @@
 
 
 .jumbotron-header {
-  padding-top: 4.5em;
+  padding-top: 4em;
 }
 
+.navbar-default .navbar-brand {
+    color: white;
+}
 
 .portfolio {
   margin-top: 6em;
@@ -49,6 +52,13 @@
 
 .portfolio-button {
   background-color: #74983D;
+}
+
+.portfolio-button a {
+  /*background-color: #74983D;*/
+  display: inline-grid;
+  color: white;
+  text-decoration: none;
 }
 
 article {
@@ -73,4 +83,9 @@ article {
 
 .icons {
   height: 30px;
+}
+
+.resume {
+  height: 100vh;
+  display: block;
 }
