@@ -12,8 +12,14 @@
     z-index:3;
 }
 
+body {
+  background-color: #1D297B;
+  color: white;
+  height: 100%;
+}
+
 .navbar {
-  background-color: #74983D;
+  background-color: #63A46C;
 }
 
 .navbar-brand {
@@ -25,20 +31,11 @@
     font-size: 1.25em;
 }
 
-.jumbotron {
-  background-image: url(./img/denver-skyline.jpg);
-  color: white;
-  background-repeat: no-repeat;
-  background-size:  cover;
-  height: 90vh;
-  width: 100vw;
-  background-blend-mode: darken;
-  margin-top: 2em;
-}
 
-
-.jumbotron-header {
-  padding-top: 4em;
+.landing {
+  height: 1000px;
+  margin-top: 200px;
+  font-size: 3em;
 }
 
 .navbar-default .navbar-brand {
@@ -51,7 +48,7 @@
 }
 
 .portfolio-button {
-  background-color: #74983D;
+  background-color: #1B2B83;
 }
 
 .portfolio-button a {
@@ -89,3 +86,9 @@ article {
   height: 100vh;
   display: block;
 }
+
+/*@media only screen and (max-width: 500px) {
+  .btn {
+    max-width: 50px;
+  }
+}*/
