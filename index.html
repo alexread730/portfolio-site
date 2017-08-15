@@ -4,6 +4,9 @@
     <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
+    <script src="https://use.fontawesome.com/1c9f721ecf.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <title>Read About Alex | Home</title>
   </head>
   <body>
@@ -34,7 +37,7 @@
       <section>
         <!-- <article class="read-about container">
           <h3>About Alex</h3>
-          <p>A little about me: I was born and raised in Milwaukee, WI to an airline pilot and a school teacher.  </p>
+          <p>A little about me: I was born and raised in Milwaukee, WI  </p>
         </article> -->
       </section>
       <section>
@@ -47,15 +50,27 @@
         </div>
       </section>
       <section class="portfolio container">
-        <h1 class="text-center">Portfolio</h1>
-        <article class="project1 row container">
-          <a href="https://star-wars-3487b.firebaseapp.com/" target="_blank"><img class="article-img col-sm-6 col-xs-12" src="./img/StarWars.png" alt="project picture"></a>
-          <h3 class="col-sm-6">Star Wars Legend is an interactive web app that condenses prominent events, people, and places into one location. Star Wars Legend uses the Star Wars API, HTML, CSS, JavaScript, Bootstrap, jQuery, AJAX, and JSON.</h3>
-        </article>
-        <article class="project2 row container">
-          <a href="https://athome-41f81.firebaseapp.com" target="_blank"><img class="article-img col-sm-6 col-xs-12" src="./img/atHomeLogo.png" alt="project picture"></a>
-          <h3 class="col-sm-6">atHome is a property management application designed to make renting your properties out to tenants easier. atHome was built with HTML, CSS, JavaScript, jQuery, nodeJS, Express, Handlebars, JSON Web Tokens, Knex, postgreSQL, and REST. </h3>
-        </article>
+        <div class="bounce-container">
+          <h1 class="text-center portfolio-title">Portfolio<br /><i class="fa fa-arrow-down text-center" aria-hidden="true"></i></h1>
+        </div>
+        <div class="articles">
+          <article class="project3 row container">
+            <a href="https://knetic-768b4.firebaseapp.com/" target="_blank"><img class="article-img col-sm-6 col-xs-12" src="./img/knetic_logo.png" alt="project picture"></a>
+            <h2>Knetic Synthesizer</h2>
+            <h3 class="col-sm-6">Knetic is a fully functioning synthesizer created from scratch with the Web Audio API. Knetic was built with the following technologies: the Web Auido API, Web Midi API, MongoDB, Tuna.js, React.js, and Monk.</h3>
+          </article>
+          <article class="project1 row container">
+            <a href="https://star-wars-3487b.firebaseapp.com/" target="_blank"><img class="article-img col-sm-6 col-xs-12" src="./img/StarWars.png" alt="project picture"></a>
+            <h2>Star Wars Legend</h2>
+            <h3 class="col-sm-6">Star Wars Legend is an interactive web app that condenses prominent events, people, and places into one location. Star Wars Legend uses the Star Wars API, HTML, CSS, JavaScript, Bootstrap, jQuery, AJAX, and JSON.</h3>
+          </article>
+          <article class="project2 row container">
+            <a href="https://athome-41f81.firebaseapp.com" target="_blank"><img class="article-img col-sm-6 col-xs-12" src="./img/atHomeLogo.png" alt="project picture"></a>
+            <h2>@Home</h2>
+            <h3 class="col-sm-6">@Home is a property management application designed to make renting your properties out to tenants easier. @Home was built with HTML, CSS, JavaScript, jQuery, nodeJS, Express, Handlebars, JSON Web Tokens, Knex, postgreSQL, and REST. </h3>
+          </article>
+        </div>
+
       </section>
     </main>
 
@@ -64,8 +79,6 @@
       <div class="container">
       </div>
     </nav>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>

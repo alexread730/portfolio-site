@@ -36,7 +36,7 @@ body {
 
 
 .landing {
-  height: 500px;
+  height: 400px;
   margin-top: 250px;
   font-size: 3em;
 }
@@ -46,8 +46,11 @@ body {
 }
 
 .portfolio {
-  margin-top: 6em;
   margin-bottom: 6em;
+}
+
+.fa-arrow-down {
+
 }
 
 .portfolio-button {
@@ -88,4 +91,30 @@ article {
 .resume {
   height: 100vh;
   display: block;
+}
+
+@keyframes example {
+    0%   {margin-top: 0px;}
+    50%  {margin-top: 20px;}
+    100% {margin-top: 0px;}
+}
+
+@keyframes anti-example {
+    0%   {margin-top: 0px;}
+    50%  {margin-top: -20px;}
+    100% {margin-top: 0px;}
+}
+
+.portfolio-title {
+  animation-name: example;
+  margin: 10px auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.articles {
+  animation-name: anti-example;
+  margin: 10px auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
