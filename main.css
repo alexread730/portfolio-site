@@ -90,7 +90,7 @@ article {
 }
 
 .video-btn {
-  margin-top: 1em;
+  margin: 10px 5px;
 }
 
 @keyframes example {
