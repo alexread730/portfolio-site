@@ -49,19 +49,15 @@ body {
   margin-bottom: 6em;
 }
 
-.fa-arrow-down {
-
-}
-
-.portfolio-button {
-  background-color: #1B2B83;
-}
-
 .portfolio-button a {
   /*background-color: #74983D;*/
   display: inline-grid;
   color: white;
   text-decoration: none;
+}
+
+.portfolio-button a:hover {
+  color: white;
 }
 
 article {
@@ -91,6 +87,10 @@ article {
 .resume {
   height: 100vh;
   display: block;
+}
+
+.video-btn {
+  margin-top: 1em;
 }
 
 @keyframes example {
