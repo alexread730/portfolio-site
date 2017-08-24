@@ -39,6 +39,7 @@ body {
   height: 380px;
   margin-top: 250px;
   font-size: 2.5em;
+  margin-bottom: -100px;
 }
 
 .navbar-default .navbar-brand {
