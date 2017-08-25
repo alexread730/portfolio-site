@@ -3,8 +3,9 @@
 .navbar-brand {
     position: absolute;
     width: 100%;
-    left: 0;
+    /*left: 0;
     top: 0;
+    right: -50px;*/
     text-align: center;
     margin: auto;
     font-size: 2em;
@@ -15,14 +16,16 @@
 }
 
 body {
-  background-color: #1D297B;
+  background-color: #007fff;
   color: white;
   height: 100%;
   font-family: 'Dosis', sans-serif;
+  z-index: 2;
 }
 
 .navbar {
-  background-color: #63A46C;
+  background-color: #5cb85c;
+  border-bottom: 1px solid #5cb85c;
 }
 
 .navbar-brand {
@@ -68,8 +71,22 @@ article {
 }
 
 .headshot {
-  height: 40vh;
-  margin-top: 5em;
+  height: 50vh;
+  top: 3.5em;
+  width: 40%;
+  position: absolute;
+  right: 0px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 79%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 79%);
+  object-fit: cover;
+  z-index: 3;
+}
+
+
+.america {
+  float: right;
+  height: 100vh;
+  display: inline-block;
 }
 
 .info-paragraph {
@@ -87,11 +104,16 @@ article {
 
 .resume {
   height: 100vh;
-  display: block;
+  display: inline-block;
 }
 
 .video-btn {
   margin: 10px 5px;
+}
+
+.footer {
+  display: fixed;
+  margin-bottom: 0;
 }
 
 @keyframes example {
