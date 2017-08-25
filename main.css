@@ -16,25 +16,29 @@
 }
 
 body {
-  background-color: #007fff;
-  color: white;
+  background-color: #BEFFFA;
+  color: 333333;
   height: 100%;
   font-family: 'Dosis', sans-serif;
   z-index: 2;
 }
 
 .navbar {
-  background-color: #5cb85c;
-  border-bottom: 1px solid #5cb85c;
+  background-color: #81B4A7;
+  border-bottom: 1px solid #81B4A7;
 }
 
 .navbar-brand {
-  color: white;
+  color: #333333;
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: white;
+    color: #333333;
     font-size: 1.25em;
+}
+
+a {
+  color: #F2FEFB;
 }
 
 
@@ -46,7 +50,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    color: white;
+    color: #333333;
 }
 
 .portfolio {
@@ -54,14 +58,25 @@ body {
 }
 
 .portfolio-button a {
-  /*background-color: #74983D;*/
+  /*background-color: #90FFD1;*/
   display: inline-grid;
-  color: white;
+  color: #333333;
   text-decoration: none;
 }
 
+.portfolio-button {
+  background-color: #81B4A7;
+  padding: 1em;
+}
+
+.portfolio-button:hover {
+  background-color: #4C8C7B;
+  color: #F2FEFB;
+}
+
 .portfolio-button a:hover {
-  color: white;
+  background-color: #4C8C7B;
+  color: #F2FEFB;
 }
 
 article {
@@ -109,6 +124,12 @@ article {
 
 .video-btn {
   margin: 10px 5px;
+  background-color: #81B4A7;
+}
+
+.video-btn:hover {
+  background-color: #4C8C7B;
+  color: #F2FEFB;
 }
 
 .footer {
