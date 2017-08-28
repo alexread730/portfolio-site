@@ -74,7 +74,9 @@ a {
 .portfolio-button:hover {
   background-color: #223C3E;
   color: #F2FEFB;
+  transition: all 300ms linear;
 }
+
 
 .portfolio-button a:hover {
   background-color: #223C3E;
@@ -133,6 +135,7 @@ article {
 .video-btn {
   margin: 10px 5px;
   background-color: #4A8287;
+  transition: all 300ms linear;
 }
 
 .video-btn:hover {
