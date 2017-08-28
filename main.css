@@ -25,7 +25,7 @@ body {
 
 .navbar {
   background-color: #5C8C90;
-  border-bottom: 1px solid #5C8C90;
+  border-bottom: 1px solid #6D473A;
 }
 
 .navbar-brand {
@@ -35,7 +35,7 @@ body {
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: #4A8287;
+    color: #6D473A;
     font-size: 1.25em;
 }
 
@@ -68,6 +68,7 @@ a {
 .portfolio-button {
   background-color: #4A8287;
   padding: 1em;
+  border: 1px solid #6D473A;
 }
 
 .portfolio-button:hover {
