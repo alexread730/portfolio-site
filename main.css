@@ -11,27 +11,14 @@
 
 body {
   background-color: #B4E9E3;
-  color: 4A8287;
   height: 100%;
   font-family: 'Quicksand', sans-serif;
   z-index: 2;
 }
 
-.articles {
-  display: grid;
-  grid-template-columns: 2em 1fr 1fr 2em;
-  grid-template-rows: 75vh 75vh 75vh;
-}
-
 .navbar {
   margin-top: 0px;
 }
-
-
-a {
-  color: #F2FEFB;
-}
-
 
 .landing {
   height: 380px;
@@ -67,7 +54,7 @@ a {
 
 .portfolio-button {
   background-color: #4A8287;
-  padding: 1em;
+  padding: .5em;
   border: 1px solid #6D473A;
   font-size: 1em;
   border-radius: 10px;
@@ -87,12 +74,24 @@ a {
   color: #F2FEFB;
 }
 
+.articles {
+  animation-name: anti-example;
+  margin: 10px auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-top: 2
+}
+
 article {
   margin-top: 10%;
   padding-bottom: 1em;
   border-bottom: 1px solid #6D473A;
   grid-column-start: 2;
   grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2em;
+  margin: 1em 2em;
 }
 
 .article-img {
@@ -102,30 +101,22 @@ article {
   grid-column-end: 3;
 }
 
+.project-desc {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
 .headshot {
   height: 70vh;
   top: 5em;
-  /*width: 40%;*/
   position: absolute;
   right: 0px;
-  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 79%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 79%);*/
-  /*object-fit: cover;*/
   margin-right: 8vw;
   z-index: 3;
 }
 
 .info-paragraph {
   margin-bottom: 10%;
-}
-
-.contact {
-  margin-top: 6em;
-  margin-bottom: 6em;
-}
-
-.icons {
-  height: 30px;
 }
 
 .resume {
@@ -138,6 +129,10 @@ article {
   margin: 10px 5px;
   background-color: #4A8287;
   transition: all 300ms linear;
+  text-decoration: none;
+  border: 1px solid #6D473A;
+  border-radius: 5px;
+  font-size: .75em;
 }
 
 .video-btn:hover {
@@ -170,11 +165,4 @@ article {
   text-align: center;
   font-size: 2em;
   color: #223C3E;
-}
-
-.articles {
-  animation-name: anti-example;
-  margin: 10px auto;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
 }
