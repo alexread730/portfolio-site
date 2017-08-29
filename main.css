@@ -23,7 +23,7 @@ body {
 .landing {
   height: 380px;
   margin-top: 250px;
-  margin-bottom: -100px;
+  margin-bottom: -150px;
   text-align: center;
   margin-left: -30px;
   color: #223C3E;
@@ -74,20 +74,22 @@ body {
   color: #F2FEFB;
 }
 
-.articles {
+.spacer {
+  height: 200px;
   animation-name: anti-example;
-  margin: 10px auto;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  margin-top: 2
+  color: #B4E9E3;
+}
+
+.articles {
+  margin: 10px auto;
 }
 
 article {
   margin-top: 10%;
   padding-bottom: 1em;
   border-bottom: 1px solid #6D473A;
-  grid-column-start: 2;
-  grid-column-end: 4;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2em;
@@ -95,10 +97,12 @@ article {
 }
 
 .article-img {
-  border-radius: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px #888888;
   width: 40vw;
   grid-column-start: 2;
   grid-column-end: 3;
+  margin-top: 2em;
 }
 
 .project-desc {
@@ -160,9 +164,48 @@ article {
 .portfolio-title {
   animation-name: example;
   margin: 5px auto;
+  display: block;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   text-align: center;
   font-size: 2em;
   color: #223C3E;
+}
+
+@media only screen and (max-width: 700px) {
+  article {
+    grid-template-columns: 100%;
+  }
+
+  .article-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .headshot {
+    height: 50vh;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+  }
+
+  .landing {
+    margin-top: 100px;
+    margin-bottom: -220px;
+    font-size: .75em;
+  }
+
+  .name {
+    margin-top: 10px;
+    margin-bottom: -80px;
+    font-size: 2.5em;
+  }
+
+  .portfolio-title {
+    font-size: 1.5em;
+  }
 }
