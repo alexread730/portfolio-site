@@ -67,6 +67,14 @@ body {
   font-size: 3em;
 }
 
+.button-container {
+  margin: 0px auto;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .portfolio-button a {
   display: inline-grid;
   color: #4A8287;
@@ -81,6 +89,8 @@ body {
   border-radius: 10px;
   color: #223C3E;
   text-decoration: none;
+  flex: 1;
+  margin: 0px 2.5px;
 }
 
 .portfolio-button:hover {
@@ -193,7 +203,7 @@ article {
   color: #223C3E;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 550px) {
   article {
     grid-template-columns: 100%;
   }
@@ -204,9 +214,19 @@ article {
     margin: 0 auto;
     border-radius: 5px;
   }
+
+  .button-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .portfolio-button {
+    margin: .20em 0;
+  }
+
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
   .headshot {
     height: 50vh;
     margin: 0px auto;
@@ -216,8 +236,8 @@ article {
 
   .landing {
     margin-top: 100px;
-    margin-bottom: -220px;
-    font-size: .75em;
+    margin-bottom: -50px;
+    /*font-size: .75em;*/
   }
 
   .name {
