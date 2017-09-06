@@ -20,28 +20,6 @@ body {
   margin-top: 0px;
 }
 
-.contact {
-  display: block;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  -ms-transform: rotate(-20deg); /* IE 9 */
-  -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
-  transform: rotate(-20deg);
-  text-align: center;
-}
-
-.contact-info {
-  display: block;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  -ms-transform: rotate(-20deg); /* IE 9 */
-  -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
-  transform: rotate(-20deg);
-  text-align: center;
-}
-
 .landing {
   height: 380px;
   margin-top: 250px;
@@ -128,7 +106,7 @@ article {
 }
 
 .article-img {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 5px 10px 5px #888888;
   width: 40vw;
   grid-column-start: 2;
@@ -203,6 +181,22 @@ article {
   color: #223C3E;
 }
 
+.contact {
+  margin: 0px 10em 10em 10em;
+}
+
+.contact-header {
+  font-size: 2.5em;
+}
+
+.contact i {
+  margin: .5em 0;
+}
+
+.inline {
+  display: inline;
+}
+
 @media only screen and (max-width: 550px) {
   article {
     grid-template-columns: 100%;
@@ -224,14 +218,19 @@ article {
     margin: .20em 0;
   }
 
+
 }
 
 @media only screen and (max-width: 1024px) {
   .headshot {
-    height: 70vh;
+    height: 60vh;
     margin: 0px auto;
     position: relative;
     display: block;
+  }
+
+  .spacer {
+    height: 5px;
   }
 
   .landing {
