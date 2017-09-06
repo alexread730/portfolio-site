@@ -142,7 +142,7 @@ article {
 }
 
 .headshot {
-  height: 70vh;
+  height: 50vh;
   top: 5em;
   position: absolute;
   right: 0px;
@@ -228,7 +228,7 @@ article {
 
 @media only screen and (max-width: 1024px) {
   .headshot {
-    height: 50vh;
+    height: 70vh;
     margin: 0px auto;
     position: relative;
     display: block;
