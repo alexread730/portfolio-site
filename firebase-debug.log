@@ -1,0 +1,93 @@
+[debug] [2017-09-21T17:01:11.863Z] ----------------------------------------------------------------------
+[debug] [2017-09-21T17:01:11.865Z] Command:       /Users/Alex/.nvm/versions/node/v8.2.0/bin/node /Users/Alex/.nvm/versions/node/v8.2.0/bin/firebase deploy
+[debug] [2017-09-21T17:01:11.865Z] CLI Version:   3.9.2
+[debug] [2017-09-21T17:01:11.865Z] Platform:      darwin
+[debug] [2017-09-21T17:01:11.865Z] Node Version:  v8.2.0
+[debug] [2017-09-21T17:01:11.865Z] Time:          Thu Sep 21 2017 11:01:11 GMT-0600 (MDT)
+[debug] [2017-09-21T17:01:11.866Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-21T17:01:11.877Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-21T17:01:11.877Z] > authorizing via signed-in user
+[debug] [2017-09-21T17:01:11.879Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-21T17:01:11.879Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/hn3luRuL4nkdmDDFY1vxKFWn7BLuHVRQosqp-H9mxP4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Sep 21 2017 11:01:11 GMT-0600 (MDT)
+[debug] [2017-09-21T17:01:12.089Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T17:01:12.105Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/captain-al  
+ Thu Sep 21 2017 11:01:12 GMT-0600 (MDT)
+[debug] [2017-09-21T17:01:15.680Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T17:01:15.681Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/captain-al/tokens  
+ Thu Sep 21 2017 11:01:15 GMT-0600 (MDT)
+[debug] [2017-09-21T17:01:16.302Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'captain-al'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2017-09-21T17:01:17.656Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/captain-al/uploads/-Ku_NienGbUswoMWvSGm?fileCount=239&message=  
+ Thu Sep 21 2017 11:01:17 GMT-0600 (MDT)
+[debug] [2017-09-21T17:02:32.300Z] <<< HTTP RESPONSE 409
+[debug] [2017-09-21T17:02:32.300Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2017-09-21T17:02:32.303Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/Users/Alex/.nvm/versions/node/v8.2.0/lib/node_modules/firebase-tools/lib/responseToError.js:10:12)
+    at Request._callback (/Users/Alex/.nvm/versions/node/v8.2.0/lib/node_modules/firebase-tools/lib/api.js:39:25)
+    at Request.self.callback (/Users/Alex/.nvm/versions/node/v8.2.0/lib/node_modules/firebase-tools/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:125:13)
+    at Request.emit (events.js:213:7)
+    at Request.<anonymous> (/Users/Alex/.nvm/versions/node/v8.2.0/lib/node_modules/firebase-tools/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:115:13)
+    at Request.emit (events.js:210:7)
+    at IncomingMessage.<anonymous> (/Users/Alex/.nvm/versions/node/v8.2.0/lib/node_modules/firebase-tools/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+    at endReadableNT (_stream_readable.js:1045:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-09-21T17:03:26.659Z] ----------------------------------------------------------------------
+[debug] [2017-09-21T17:03:26.661Z] Command:       /Users/Alex/.nvm/versions/node/v8.2.0/bin/node /Users/Alex/.nvm/versions/node/v8.2.0/bin/firebase deploy
+[debug] [2017-09-21T17:03:26.661Z] CLI Version:   3.9.2
+[debug] [2017-09-21T17:03:26.661Z] Platform:      darwin
+[debug] [2017-09-21T17:03:26.661Z] Node Version:  v8.2.0
+[debug] [2017-09-21T17:03:26.662Z] Time:          Thu Sep 21 2017 11:03:26 GMT-0600 (MDT)
+[debug] [2017-09-21T17:03:26.662Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-21T17:03:26.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-21T17:03:26.674Z] > authorizing via signed-in user
+[debug] [2017-09-21T17:03:26.676Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/captain-al  
+ Thu Sep 21 2017 11:03:26 GMT-0600 (MDT)
+[debug] [2017-09-21T17:03:27.032Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T17:03:27.033Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/captain-al/tokens  
+ Thu Sep 21 2017 11:03:27 GMT-0600 (MDT)
+[debug] [2017-09-21T17:03:27.605Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'captain-al'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2017-09-21T17:03:29.103Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/captain-al/uploads/-Ku_ODl0n24ioRJzQjj2?fileCount=239&message=  
+ Thu Sep 21 2017 11:03:29 GMT-0600 (MDT)
+[debug] [2017-09-21T17:05:08.820Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T17:05:08.820Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[error] 
+[error] Error: File upload failed: Deploy failed.
+[debug] [2017-09-21T17:06:39.269Z] Error Context: {
+  "duration": 142570,
+  "fileCount": 239,
+  "ip": "128.177.172.220",
+  "start": 1506013456602,
+  "status": "failed",
+  "statusMessage": "Deploy failed.",
+  "uid": "101584716887461745851",
+  "uploadedCount": 239,
+  "user": {
+    "email": "alexread730@gmail.com",
+    "gaiaId": "101584716887461745851",
+    "image": "https://lh6.googleusercontent.com/-lQLJdIIHcl4/AAAAAAAAAAI/AAAAAAAAAVs/kn-LBA--wUI/photo.jpg"
+  }
+}
